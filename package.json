@@ -3,9 +3,11 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix build",
-    "dev": "remix dev --manual",
+    "build": "vite build && vite build --ssr",
+    "dev": "vite dev",
     "start": "remix-serve ./build/index.js",
+    "dev:express": "node ./server.mjs",
+    "start:express": "NODE_ENV=production node ./server.mjs",
     "typecheck": "tsc"
   },
   "dependencies": {
