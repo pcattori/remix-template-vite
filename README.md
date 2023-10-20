@@ -51,4 +51,4 @@ $ npm run build
 $ npm run start:express
 ```
 
-[remix-vite-docs]: TODO
+[remix-vite-docs]: https://remix.run/docs/en/dev/future/vite
