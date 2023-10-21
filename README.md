@@ -1,6 +1,6 @@
 # remix-template-vite
 
-⚠️ Remix support for Vite in unstable.
+⚠️ Remix support for Vite is unstable and not recommended for production.
 
 📖 See the [Remix Vite docs][remix-vite-docs] for details on supported features.
 
