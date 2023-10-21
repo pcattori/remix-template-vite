@@ -27,6 +27,8 @@ npm run start
 
 ## Extensible server
 
+🚨 Depends on [unmerged PR][extensible-server-pr]
+
 Remix exposes APIs for integrating Vite with a custom server:
 
 ```ts
@@ -54,3 +56,4 @@ npm run start:express
 ```
 
 [remix-vite-docs]: https://remix.run/docs/en/dev/future/vite
+[extensible-server-pr]: https://github.com/remix-run/remix/pull/7682
