@@ -1,11 +1,13 @@
 # remix-template-vite
 
-⚠️ Remix support for Vite in unstable
+⚠️ Remix support for Vite in unstable.
 
 📖 See the [Remix Vite docs][remix-vite-docs] for details on supported features.
 
+## Setup
+
 ```shellscript
-$ npx create-remix@nightly --template https://github.com/pcattori/remix-template-vite
+npx create-remix@nightly --template pcattori/remix-template-vite
 ```
 
 ## Minimal server
@@ -13,14 +15,14 @@ $ npx create-remix@nightly --template https://github.com/pcattori/remix-template
 Spin up a minimal Vite dev server:
 
 ```shellscript
-$ npm run dev
+npm run dev
 ```
 
-Or build run your app for production and run it:
+Or build your app for production and run it:
 
 ```shellscript
-$ npm run build
-$ npm run start
+npm run build
+npm run start
 ```
 
 ## Extensible server
@@ -41,14 +43,14 @@ In this template, we'll use Express but remember that these APIs can be used wit
 Spin up the Express server as a dev server:
 
 ```shellscript
-$ npm run dev:express
+npm run dev:express
 ```
 
 Or build your app for production and run it:
 
 ```shellscript
-$ npm run build
-$ npm run start:express
+npm run build
+npm run start:express
 ```
 
 [remix-vite-docs]: https://remix.run/docs/en/dev/future/vite
