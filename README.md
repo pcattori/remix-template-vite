@@ -27,8 +27,6 @@ npm run start
 
 ## Extensible server
 
-🚨 Depends on [unmerged PR][extensible-server-pr]
-
 Remix exposes APIs for integrating Vite with a custom server:
 
 ```ts
